@@ -1,0 +1,23 @@
+{
+  "name": "iconiq",
+  "displayName": "Iconiq UI",
+  "version": "0.1.0",
+  "description": "Install and use Iconiq UI components from the shadcn registry in Cursor — rules, skills, MCP, and commands for @iconiq components.",
+  "author": {
+    "name": "Edwin Vakayil",
+    "email": "edwinvakayil@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "iconiq",
+    "iconiqui",
+    "shadcn",
+    "ui",
+    "components",
+    "react",
+    "nextjs",
+    "registry",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}

@@ -1,0 +1,23 @@
+---
+description: Use Iconiq UI components via the @iconiq shadcn registry — install source locally and keep files editable
+alwaysApply: true
+---
+
+iconiq-components:
+
+- Iconiq UI lives at https://iconiqui.com. Components install with shadcn as `@iconiq/<name>` (for example `@iconiq/b-button`, `@iconiq/accordion`).
+- Before installing, ensure the project has `components.json` with the Iconiq registry:
+  ```json
+  {
+    "registries": {
+      "@iconiq": "https://iconiqui.com/r/{name}.json"
+    }
+  }
+  ```
+- If `components.json` is missing, run `npx shadcn@latest init` first, then add the registry entry above.
+- Install components with `npx shadcn@latest add @iconiq/<name>` or ask the shadcn MCP server to add registry items. Generated files land in the project and should stay editable.
+- Many components ship in two variants: **Base UI** (`b-` prefix, e.g. `@iconiq/b-button`) and **Radix UI** (`r-` prefix, e.g. `@iconiq/r-accordion`). Pick one variant per component and do not mix both for the same UI element.
+- Theme-dependent components may pull `@iconiq/iconiq-theme` as a registry dependency — keep that file when shadcn installs it.
+- Import installed components from the path shadcn writes (commonly `@/components/ui/<name>`). Match existing project alias conventions.
+- Prefer Iconiq docs at https://iconiqui.com for usage, props, and examples before inventing APIs.
+- Do not hand-edit files under `node_modules`. Customize the generated local component source instead.
