@@ -2,8 +2,6 @@
 
 Cursor plugin for [Iconiq UI](https://iconiqui.com): install editable shadcn registry components with rules, skills, MCP, commands, and an agent.
 
-**Repository:** [github.com/edwinvakayil/iconiq](https://github.com/edwinvakayil/iconiq) (`iconiqUI/iconiqui-plugin`)
-
 ## Included
 
 | Component | Path | Purpose |
@@ -39,30 +37,5 @@ Add to `components.json`:
 }
 ```
 
-## Validate
-
-```bash
-node scripts/validate-template.mjs
-```
-
-## Submission checklist
-
-- [x] Valid `.cursor-plugin/plugin.json`
-- [x] Plugin name is lowercase kebab-case (`iconiq`)
-- [x] `.cursor-plugin/marketplace.json` entry maps to this plugin folder (`source: "."`)
-- [x] Frontmatter metadata present in rules, skills, agents, and commands
-- [x] Logo committed at `assets/logo.svg` and referenced in `plugin.json`
-- [x] `node scripts/validate-template.mjs` passes
-- [x] Repository link ready for Cursor Marketplace submission
-
-Submit to the Cursor team via Slack or [kniparko@anysphere.com](mailto:kniparko@anysphere.com).
-
-## Learn more
-
-- [Installation guide](https://iconiqui.com/installation)
-- [MCP setup](https://iconiqui.com/mcp)
-- [VS Code extension](../iconiqui-vscode/README.md) — browse and install from the sidebar
-
----
-
+--- 
 Built by [Edwin Vakayil](https://github.com/edwinvakayil) for [Iconiq UI](https://iconiqui.com).
