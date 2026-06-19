@@ -1,5 +1,5 @@
 {
-  "name": "iconiq",
+  "name": "iconiqui",
   "displayName": "Iconiq UI",
   "version": "0.1.0",
   "description": "Install and use Iconiq UI components from the shadcn registry in Cursor — rules, skills, MCP, and commands for @iconiq components.",
@@ -9,7 +9,6 @@
   },
   "license": "MIT",
   "keywords": [
-    "iconiq",
     "iconiqui",
     "shadcn",
     "ui",
